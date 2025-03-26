@@ -108,3 +108,8 @@ hei_bookmarks.ini
 .pakku/server-overrides/scripts
 .pakku/server-overrides/mods
 .pakku/server-overrides/user_jvm_args.txt
+mod_diffs_only_TFGpp-devpack.txt
+mod_diffs_only_PrismLauncherInstance_WITH_UPDATEINFO.txt
+mod_diffs_only_PrismLauncherInstance.txt
+mod_diffs_in_common.txt
+mod_diffs.bat
