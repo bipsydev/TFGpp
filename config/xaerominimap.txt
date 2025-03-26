@@ -18,7 +18,7 @@ displayRedstone:true
 deathpoints:true
 oldDeathpoints:true
 distance:1
-lockNorth:false
+lockNorth:true
 zoom:0
 minimapSize:0
 chunkGrid:-1
@@ -70,7 +70,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
@@ -105,8 +105,12 @@ infoDisplayBackgroundOpacity:40
 caveModeToggleTimer:1000
 legibleCaveMaps:false
 biomeBlending:true
-displayTrackedPlayers:true
+displayTrackedPlayersOnMap:true
+displayTrackedPlayersInWorld:true
 dimensionScaledMaxWaypointDistance:true
+trackedPlayerWorldIconScale:0
+trackedPlayerWorldNameScale:0
+trackedPlayerMinimapIconScale:0
 displayClaims:true
 displayCurrentClaim:true
 claimsFillOpacity:46

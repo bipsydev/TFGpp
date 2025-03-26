@@ -1,0 +1,32 @@
+
+[COMMON]
+	#Search distance.
+	#Unit:Chunk
+	#Range: > 0
+	distance = 2
+
+[CLIENT]
+	#How long the particle lives
+	#Unit:Tick
+	#Range: 20 ~ 50000
+	particle_live_time = 400
+	#How long the slot height light.
+	#Unit:Tick
+	#Range: 20 ~ 5000
+	slot_height_light_time = 400
+	#The slot height light color,you should convert the ARGB value to int.
+	#Range: > -2147483648
+	slot_height_light_color = -3385513
+
+[SERVER]
+	#The minimum search interval per player on the server side.This parameter is valid only on the server.
+	#Unit:ms
+	#Range: > 0
+	server_search_interval = 500
+	#Whether to enable the whitelist. The default value is blacklist.
+	enable_white_list = false
+	#The blacklist of players. You need to fill in the uuid of the player.
+	black_list = []
+	#The white of players. You need to fill in the uuid of the player.
+	white_list = []
+

@@ -153,7 +153,7 @@ machines:
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
-  doTerrainExplosion: true
+  doTerrainExplosion: false
 
   # Energy use multiplier for electric items.
   # Default: 100
@@ -334,7 +334,7 @@ compat:
 
     # Enable GTEU to Platform native (and vice versa) Converters.
     # Default: false
-    enablePlatformConverters: true
+    enablePlatformConverters: false
 
     # Platform native Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
